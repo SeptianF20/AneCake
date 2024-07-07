@@ -122,7 +122,7 @@
 
         @can('view-cashier')
         <li>
-          <a class="waves-effect" href="{{ route('admin.card') }}">
+          <a class="waves-effect" href="{{ route('admin.member.index') }}">
             <i class="bx bxs-credit-card"></i>
             <span key="t-cashier">Tambah Member</span>
           </a>
